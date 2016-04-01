@@ -11,6 +11,32 @@
 	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.55);
 	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.55);
 }
+#sign_up_cta {
+	height:60px;
+	width:250px;
+	background-color:#98ffcc;
+	border-radius: 4px;
+	float:right;
+	padding-top:10px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.55);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.55);
+	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.55);
+}
+#sign_up_cta_button {
+	background-color:#23FF92;
+	display:inline-block;
+	width:120px;
+	font-size:24px;
+	font-weight:bold;
+	font-variant:small-caps;
+	border-radius:4px;
+}
+#sign_up_cta_button:hover {
+	background-color:#ccff98;
+	cursor:pointer;
+}
+
+
 #menu_bar {
 	width:100%;
 	background-color:#98ffcc;
@@ -27,6 +53,7 @@
 	cursor:pointer;
 }
 h2 {
+	font-variant:small-caps;
 }
 
 .menu_item_text {
